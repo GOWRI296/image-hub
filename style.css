@@ -1,0 +1,136 @@
+h4{
+    border-style: ridge;
+    border-radius:20px;
+    border-width:3px;
+    border-color: black;
+}
+h1{
+    text-shadow: 5px 5px 10px green ,-5px -5px 10px yellow;
+}
+#box1{
+    width:100px;
+    height: 100px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px  5px;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float:left;
+    margin-left: 0px;
+}
+div{
+    border:2px solid;
+    height:75px;
+    overflow:auto;
+}
+#box1{
+    width:200px;
+    height:200px;
+    background-color: aliceblue;
+    position:fixed;
+    right:0px;
+    left:1300px;
+}
+#box2{
+    width:200px;
+    height:200px;
+    background-color: aliceblue;
+    position:fixed;
+    right:0px;
+    left:1300px;
+
+}
+body{
+    background-image: url(sea2.jpg);
+    background-repeat:no repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+a:link{
+    color:rgb(171, 171, 252)
+}
+a:hover{
+    color:rgb(171, 171, 252);
+    font-size:1.1em;
+}
+a:visited{
+    color:aqua;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding:8px 15px;
+    display:inline-block;
+}
+.pagination a.active{
+    background-color: grey;
+    font-weight:bold;
+    border-radius:5px;
+}
+.pagination a:hover:not(.active){
+    background-color: grey;
+    border-radius:5px;
+}
+.dropdown1{
+    display:inline-block;
+}
+.dropdown1 button{
+    background-color: antiquewhite;
+    color:black;
+    cursor:pointer;
+}
+.dropdown1 a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.dropdown1 .content{
+    display:none;
+    position:absolute;
+    background-color:grey;
+    min-width:100px;
+    box-shadow:2px 2px 5px black;
+}
+.dropdown1:hover .content{
+    display:block;
+}
+.dropdown1:hover button{
+    background-color: grey;
+}
+.dropdown1 a:hover{
+    background-color: white;
+}
+h1{
+    text-align:center;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color: grey;
+    padding:0px;
+    margin: 0px;
+    overflow:hidden;
+}
+.navbar a{
+    color:antiquewhite;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color:lightgray ;
+
+}
+.navbar li{
+    float:left;
+}
